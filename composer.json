@@ -1,0 +1,26 @@
+{
+    "name": "Elements of Programming Interviews 2nd Edition - PHP solutions",
+    "description": "This is just a repo to save my approaches to the problems presented on the book.",
+    "license": "MIT",
+    "keywords": ["epi", "php", "adrorocker"],
+    "homepage": "https://github.com/adrorocker/epi-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Adro Rocker",
+            "email": "alejandro.morelos@jarwebdev.com",
+            "homepage": "https://github.com/adrorocker"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Epiphp\\" : [ "src/", "app/" ]
+        },
+        "files": [
+        ]
+    }
+}
