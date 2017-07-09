@@ -48,8 +48,8 @@ class App
         $object = new $class();
 
         echo '<a href="/">back</a><br><br>';
-        echo 'Title: '.$object->title().'<br>';
-        echo 'Description: '.$object->description().'<br>';
+        echo '<pre>Title: '.$object->title().'</pre>';
+        echo '<pre>Description: '.$object->description().'</pre>';
 
 
         var_dump($object->execute());
